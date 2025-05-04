@@ -2,6 +2,9 @@
 spring:
   application:
     name: gryffin-dataservices
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/gryffinHealthyFoods
   output:
     ansi:
       enabled: always
