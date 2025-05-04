@@ -1,0 +1,7 @@
+type Query {
+  foodDiaryByDate(diaryDate: String): FoodEntry
+}
+
+type FoodEntry {
+  id: ID
+}

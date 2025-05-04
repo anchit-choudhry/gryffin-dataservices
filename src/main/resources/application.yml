@@ -1,0 +1,36 @@
+---
+spring:
+  application:
+    name: gryffin-dataservices
+  data:
+   mongodb:
+     uri: mongodb://localhost:27017/gryffinHealthyFoods
+  output:
+    ansi:
+      enabled: always
+  graphql:
+    graphiql:
+      enabled: true
+    schema:
+      printer:
+        enabled: true
+  liquibase:
+    enabled: true
+    should-run: true
+    changeLogFile: changelog/changelog-master.xml
+    url: ${spring.data.mongodb.uri}
+    driver: liquibase.ext.mongodb.database.MongoClientDriver
+  webflux:
+    base-path: /gryffin/api
+    problemdetails:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, liquibase, metrics, prometheus, sessions
+
+# spring.graphql.cors.allowed-origins=https://example.org
+# spring.graphql.cors.allowed-methods=GET,POST
+# spring.graphql.cors.max-age=1800s
