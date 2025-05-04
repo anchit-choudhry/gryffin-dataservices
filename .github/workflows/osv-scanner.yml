@@ -1,3 +1,4 @@
+---
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
@@ -17,7 +18,7 @@ on:
   merge_group:
     branches: [ "main" ]
   schedule:
-    - cron: '21 0 * * 6'
+    - cron: "21 0 * * 6"
   push:
     branches: [ "main" ]
 
