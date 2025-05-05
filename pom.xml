@@ -428,6 +428,8 @@
 
   <properties>
     <java.version>21</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
     <application.name>gryffin-dataservices</application.name>
     <application.profiles>local,mongo</application.profiles>
     <repackage.classifier/>
@@ -435,14 +437,13 @@
 
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
     <checkstyle.version>10.23.1</checkstyle.version>
-    <git-commit-id-maven-plugin>9.0.1</git-commit-id-maven-plugin>
+    <git-commit-id-maven-plugin.versopm>9.0.1</git-commit-id-maven-plugin.versopm>
     <graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version>
     <grpc.version>1.72.0</grpc.version>
     <liquibase.version>4.31.1</liquibase.version>
     <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
     <native-maven-plugin.version>0.10.6</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
