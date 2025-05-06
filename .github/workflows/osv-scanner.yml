@@ -14,21 +14,21 @@ name: OSV-Scanner
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
   merge_group:
-    branches: [ "main" ]
+    branches: ["main"]
   schedule:
     - cron: "21 0 * * 6"
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
-  # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
-  actions: read
-  # Require writing security events to upload SARIF file to security tab
-  security-events: write
   # Read commit contents
   contents: read
+  # Require writing security events to upload SARIF file to security tab
+  security-events: write
+  # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
+  actions: read
 
 jobs:
   scan-scheduled:
@@ -41,14 +41,14 @@ jobs:
         --include-git-root
         ./
       upload-sarif: true
-      fail-on-vuln: false
+      fail-on-vuln: true
     permissions:
-      # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
-      actions: read
-      # Require writing security events to upload SARIF file to security tab
-      security-events: write
       # Read commit contents
       contents: read
+      # Require writing security events to upload SARIF file to security tab
+      security-events: write
+      # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
+      actions: read
   scan-pr:
     if: ${{ github.event_name == 'pull_request' || github.event_name == 'merge_group' }}
     uses: "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@v2.0.2"
@@ -59,11 +59,11 @@ jobs:
         --include-git-root
         ./
       upload-sarif: true
-      fail-on-vuln: false
+      fail-on-vuln: true
     permissions:
-      # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
-      actions: read
-      # Require writing security events to upload SARIF file to security tab
-      security-events: write
       # Read commit contents
       contents: read
+      # Require writing security events to upload SARIF file to security tab
+      security-events: write
+      # Required to upload SARIF file to CodeQL. See: https://github.com/github/codeql-action/issues/2117
+      actions: read
