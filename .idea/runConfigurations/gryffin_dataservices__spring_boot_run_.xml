@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="gryffin-dataservices [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="gryffin-dataservices [spring-boot:run]"
+    type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
