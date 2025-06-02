@@ -441,7 +441,7 @@
     <git-commit-id-maven-plugin.versopm>9.0.1</git-commit-id-maven-plugin.versopm>
     <graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version>
     <grpc.version>1.72.0</grpc.version>
-    <liquibase.version>4.31.1</liquibase.version>
+    <liquibase.version>4.32.0</liquibase.version>
     <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
