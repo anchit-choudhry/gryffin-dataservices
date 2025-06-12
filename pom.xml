@@ -440,7 +440,7 @@
     <checkstyle.version>10.25.0</checkstyle.version>
     <git-commit-id-maven-plugin.versopm>9.0.1</git-commit-id-maven-plugin.versopm>
     <graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version>
-    <grpc.version>1.72.0</grpc.version>
+    <grpc.version>1.73.0</grpc.version>
     <liquibase.version>4.32.0</liquibase.version>
     <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
@@ -448,7 +448,7 @@
     <native-maven-plugin.version>0.10.6</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
-    <protobuf-java.version>4.31.0</protobuf-java.version>
+    <protobuf-java.version>4.31.1</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     <sentry.version>8.13.2</sentry.version>
     <spring-grpc.version>0.8.0</spring-grpc.version>
