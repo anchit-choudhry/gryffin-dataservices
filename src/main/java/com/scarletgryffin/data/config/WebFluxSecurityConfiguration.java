@@ -29,12 +29,12 @@ public class WebFluxSecurityConfiguration {
   @Bean
   public SecurityWebFilterChain apiFilterChain(final ServerHttpSecurity http) {
     http.securityMatcher(ServerWebExchangeMatchers.pathMatchers(contextPath + "/**"))
-        .authorizeExchange(exchange -> exchange
-            .pathMatchers(contextPath + "/admin/**").hasRole("ADMIN")
-            .pathMatchers(contextPath + "/**").hasAnyRole("USER", "ADMIN")
-            .anyExchange().authenticated())
-        .httpBasic(Customizer.withDefaults())
-        .formLogin(Customizer.withDefaults())
+      .authorizeExchange(exchange -> exchange
+        .pathMatchers(contextPath + "/admin/**").hasRole("ADMIN")
+        .pathMatchers(contextPath + "/**").hasAnyRole("USER", "ADMIN")
+        .anyExchange().authenticated())
+      .httpBasic(Customizer.withDefaults())
+      .formLogin(Customizer.withDefaults())
         .csrf(CsrfSpec::disable);
     return http.build();
   }
@@ -45,10 +45,10 @@ public class WebFluxSecurityConfiguration {
   @Bean
   public SecurityWebFilterChain webFilterChain(final ServerHttpSecurity http) {
     http.authorizeExchange(exchange -> exchange
-            .matchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
-            .pathMatchers("/public/**").permitAll()
-            .pathMatchers("/actuator/**").permitAll()
-            .anyExchange().authenticated())
+        .matchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
+        .pathMatchers("/public/**").permitAll()
+        .pathMatchers("/actuator/**").permitAll()
+        .anyExchange().authenticated())
         .formLogin(Customizer.withDefaults());
     return http.build();
   }

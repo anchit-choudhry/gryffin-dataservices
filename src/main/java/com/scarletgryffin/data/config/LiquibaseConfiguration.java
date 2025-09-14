@@ -47,7 +47,7 @@ public class LiquibaseConfiguration implements ResourceLoaderAware {
   public MongoLiquibaseDatabase mongoLiquibaseDatabase() throws DatabaseException {
     log.info("Connecting to: {}", mongodbUrl);
     return (MongoLiquibaseDatabase) DatabaseFactory.getInstance()
-        .openDatabase(mongodbUrl, null, null, null, null);
+      .openDatabase(mongodbUrl, null, null, null, null);
   }
 
   /**
