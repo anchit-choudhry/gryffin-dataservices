@@ -437,7 +437,7 @@
     <skip-native-build>true</skip-native-build>
 
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
-    <checkstyle.version>11.0.1</checkstyle.version>
+    <checkstyle.version>11.1.0</checkstyle.version>
     <git-commit-id-maven-plugin.versopm>9.0.2</git-commit-id-maven-plugin.versopm>
     <graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version>
     <grpc.version>1.75.0</grpc.version>
