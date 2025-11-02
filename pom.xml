@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.5.6</version>
+    <version>3.5.7</version>
     <relativePath/>
   </parent>
 
@@ -428,7 +428,7 @@
   </build>
 
   <properties>
-    <java.version>21</java.version>
+    <java.version>25</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <application.name>gryffin-dataservices</application.name>
@@ -437,20 +437,20 @@
     <skip-native-build>true</skip-native-build>
 
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
-    <checkstyle.version>11.0.1</checkstyle.version>
+    <checkstyle.version>12.1.1</checkstyle.version>
     <git-commit-id-maven-plugin.versopm>9.0.2</git-commit-id-maven-plugin.versopm>
     <graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version>
-    <grpc.version>1.75.0</grpc.version>
-    <liquibase.version>4.33.0</liquibase.version>
-    <logstash-logback-encoder.version>8.1</logstash-logback-encoder.version>
+    <grpc.version>1.76.0</grpc.version>
+    <liquibase.version>5.0.1</liquibase.version>
+    <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
-    <native-maven-plugin.version>0.11.0</native-maven-plugin.version>
+    <native-maven-plugin.version>0.11.2</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
-    <protobuf-java.version>4.32.1</protobuf-java.version>
+    <protobuf-java.version>4.33.0</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
-    <sentry.version>8.22.0</sentry.version>
+    <sentry.version>8.25.0</sentry.version>
     <spring-grpc.version>0.11.0</spring-grpc.version>
   </properties>
 
