@@ -451,7 +451,7 @@
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
     <protobuf-java.version>4.33.11</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
-    <sentry.version>8.26.0</sentry.version>
+    <sentry.version>8.27.0</sentry.version>
     <spring-grpc.version>0.12.0</spring-grpc.version>
   </properties>
 
