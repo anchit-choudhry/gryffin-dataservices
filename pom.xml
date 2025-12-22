@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.5.8</version>
+    <version>3.5.9</version>
     <relativePath/>
   </parent>
 
@@ -449,7 +449,7 @@
     <native-maven-plugin.version>0.11.3</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
-    <protobuf-java.version>4.33.1</protobuf-java.version>
+    <protobuf-java.version>4.33.2</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     <sentry.version>8.29.0</sentry.version>
     <spring-grpc-dependencies.version>1.0.0</spring-grpc-dependencies.version>

@@ -12,7 +12,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GryffinDataservicesApplication {
 
   /**
-   * main method for GryffinDataservicesApplication application.
+   * Main method for GryffinDataservicesApplication application.
+   *
+   * @param args args for the main method
    */
   public static void main(final String[] args) {
     SpringApplication.run(GryffinDataservicesApplication.class, args);
