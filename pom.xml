@@ -25,7 +25,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.5.11</version>
+    <version>3.5.13</version>
     <relativePath/>
   </parent>
 
@@ -441,18 +441,18 @@
     <checkstyle.version>13.3.0</checkstyle.version>
     <git-commit-id-maven-plugin.version>9.0.2</git-commit-id-maven-plugin.version>
     <!-- graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version -->
-    <grpc.version>1.78.0</grpc.version>
+    <grpc.version>1.80.0</grpc.version>
     <liquibase.version>5.0.2</liquibase.version>
     <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
-    <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
-    <native-maven-plugin.version>0.11.5</native-maven-plugin.version>
+    <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+    <native-maven-plugin.version>1.0.0</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
-    <protobuf-java.version>4.34.0</protobuf-java.version>
+    <protobuf-java.version>4.34.1</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
-    <sentry.version>8.36.0</sentry.version>
-    <spring-grpc-dependencies.version>1.0.1</spring-grpc-dependencies.version>
+    <sentry.version>8.37.1</sentry.version>
+    <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
   </properties>
 
   <profiles>
