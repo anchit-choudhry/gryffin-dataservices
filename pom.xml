@@ -446,13 +446,13 @@
     <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
-    <native-maven-plugin.version>1.0.0</native-maven-plugin.version>
+    <native-maven-plugin.version>1.1.0</native-maven-plugin.version>
     <!--netflix-dgs.version>10.1.2</netflix-dgs.version-->
     <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
     <protobuf-java.version>4.34.1</protobuf-java.version>
     <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     <sentry.version>8.41.0</sentry.version>
-    <spring-grpc-dependencies.version>1.0.2</spring-grpc-dependencies.version>
+    <spring-grpc-dependencies.version>1.0.3</spring-grpc-dependencies.version>
   </properties>
 
   <profiles>
