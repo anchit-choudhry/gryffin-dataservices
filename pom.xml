@@ -438,10 +438,10 @@
     <skip-native-build>true</skip-native-build>
 
     <asciidoctor-maven-plugin.version>3.2.0</asciidoctor-maven-plugin.version>
-    <checkstyle.version>13.7.0</checkstyle.version>
+    <checkstyle.version>13.8.0</checkstyle.version>
     <git-commit-id-maven-plugin.version>10.0.0</git-commit-id-maven-plugin.version>
     <!-- graphqlcodegen-maven-plugin.version>3.0.0</graphqlcodegen-maven-plugin.version -->
-    <grpc.version>1.82.1</grpc.version>
+    <grpc.version>1.82.2</grpc.version>
     <liquibase.version>5.0.3</liquibase.version>
     <logstash-logback-encoder.version>9.0</logstash-logback-encoder.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
